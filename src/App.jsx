@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+//import Welcome from './pages/Welcome'
+import Message from './components/Message'
 import './App.css'
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         </a>
       </div>
       <h1>My-first-React-App</h1>
+      <Message content={"Made by Moses"}/>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
